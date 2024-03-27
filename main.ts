@@ -1,7 +1,7 @@
 //email and passward checking code with passward length restrics.
 let email:string="smobeen@gmail.com";
-let passward:string="1234567890112222";
-let percentage:number=33.5;
+let passward:string="1234567";
+let percentage:number=83.5;
 
 if(email=="smobeen@gmail.com" && passward.length>=6  && passward.length<=14){
     console.log("you can login successfully.");
